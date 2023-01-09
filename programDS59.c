@@ -246,7 +246,7 @@ int main()
 	while(1)
 	{
 		int iNo1,iPos = 0;
-		/*printf("===============================================================================\n");
+		printf("===============================================================================\n");
 		printf("Please Enter For Insert First Elememt : 1\n");
 		printf("Please Enter For Insert Last Elememt : 2\n");
 		printf("Please Enter For Insert At Position Elememt : 3\n");
@@ -256,7 +256,7 @@ int main()
 		printf("Please Enter For Display Elememt : 7\n");
 		printf("Please Enter For Count Elememt : 8\n");
 		printf("Please Enter For to Exit from Application  : 9\n");
-		printf("===============================================================================\n");*/
+		printf("===============================================================================\n");
 
 		printf("Please enter Your Choice: --------\n");
 		scanf("%d",&iNo);
