@@ -1,0 +1,51 @@
+/////////////////////////////////////////////////////////////////////
+//
+//  Function Name:  	Display
+//  Description :      	to display 1 to 5 number on screen
+//  Input :             int
+//  Output :           	1	2	3	4	5
+//  Date :              29/12/2022
+//  Author :            Shubham Rajendra Pund
+//
+/////////////////////////////////////////////////////////////////////
+
+#include<stdio.h>
+
+int Display(int iValue1)
+{
+	if(iValue1 < 0)
+    {
+        iValue1 = -iValue1;
+    }
+
+	for(int i = 1; i <= iValue1; i++)
+	{
+		printf("%d\t",i);
+	}
+}
+
+/////////////////////////////////////////////////////////////////////
+// Write a program to perform Display Number
+/////////////////////////////////////////////////////////////////////
+
+int main()
+{
+	int iNo1 = 0;
+	printf("Enter number: \n");
+	scanf("%d",&iNo1);
+
+	Display(iNo1);
+	return 0;
+}
+
+
+
+/////////////////////////////////////////////////////////////////////
+//
+//  Input :        6
+//  Output :       1 	2	3	4	5	6
+//
+//  Input :        -3
+//  Output :       1 	2	3
+//
+/////////////////////////////////////////////////////////////////////
